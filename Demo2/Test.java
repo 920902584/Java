@@ -1,4 +1,4 @@
-package com.java.zx;
+ï»¿package com.java.zx;
 
 public class Test {
 
@@ -7,12 +7,12 @@ public class Test {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 shape[] Shape =new shape[2];   //´´½¨Ò»¸öÊµÀı»¯Êı×é
-		 Oblong obl=new Oblong(2,3);    //ÊµÀı»¯³¤·½ĞÎ£¬²¢¸ø³¤ºÍ¿í¸³Öµ
-		 Cyclo  cyc=new Cyclo(3);     //ÊµÀı»¯Ô²ĞÎ£¬²¢¸ø°ë¾¶¸³Öµ
+		 shape[] Shape =new shape[2];   //åˆ›å»ºä¸€ä¸ªå®ä¾‹åŒ–æ•°ç»„
+		 Oblong obl=new Oblong(2,3);    //å®ä¾‹åŒ–é•¿æ–¹å½¢ï¼Œå¹¶ç»™é•¿å’Œå®½èµ‹å€¼
+		 Cyclo  cyc=new Cyclo(3);     //å®ä¾‹åŒ–åœ†å½¢ï¼Œå¹¶ç»™åŠå¾„èµ‹å€¼
 		 Shape[0]=obl;          
 		 Shape[1]=cyc;
-		 //  Êä³ö½á¹û
+		 //  è¾“å‡ºç»“æœ
          for(int i=0;i<2;i++){
         	 Shape[i].Arer();
         	 Shape[i].Perimeter();

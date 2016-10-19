@@ -1,25 +1,25 @@
-package com.java.zx;
+ï»¿package com.java.zx;
 
 public interface shape {
 	public final double PI=3.1415926;
-	 void Arer();   //Ãæ»ı
-	 void Perimeter();  //ÖÜ³¤
+	 void Arer();   //é¢ç§¯
+	 void Perimeter();  //å‘¨é•¿
 
 }
-  //¶¨ÒåÒ»¸ö³¤·½ĞÎÀà
+  //å®šä¹‰ä¸€ä¸ªé•¿æ–¹å½¢ç±»
  class Oblong implements shape {
-    private int length;   //Ë½ÓĞ
+    private int length;   //ç§æœ‰
     private int widgth;
 	@Override
 	public void Arer() {
 		// TODO Auto-generated method stub
-     System.out.println("ËûµÄ³¤Îª£º"+this.length+"  ËûµÄ¿íÎª£º"+this.widgth+"  ËûµÄÃæ»ı£º"+(this.length*this.widgth));
+     System.out.println("ä»–çš„é•¿ä¸ºï¼š"+this.length+"  ä»–çš„å®½ä¸ºï¼š"+this.widgth+"  ä»–çš„é¢ç§¯ï¼š"+(this.length*this.widgth));
 	}
 
 	@Override
 	public void Perimeter() {
 		// TODO Auto-generated method stub
-    System.out.println("ËûµÄ³¤Îª£º"+this.length+"  ËûµÄ¿íÎª£º"+this.widgth+"  ËûµÄÖÜ³¤£º"+((this.length*2)+(this.widgth*2)));
+    System.out.println("ä»–çš„é•¿ä¸ºï¼š"+this.length+"  ä»–çš„å®½ä¸ºï¼š"+this.widgth+"  ä»–çš„å‘¨é•¿ï¼š"+((this.length*2)+(this.widgth*2)));
 	}
 
 	public int getLength() {
@@ -45,21 +45,21 @@ public interface shape {
 
 }
  
-      // ¶¨ÒåÒ»¸öÔ²ĞÎÀà
+      // å®šä¹‰ä¸€ä¸ªåœ†å½¢ç±»
  class Cyclo implements shape{
           private double r;
 		
 
 		@Override
 		public void Arer() {
-			System.out.println("ËûµÄ°ë¾¶ÊÇ£º"+this.r+"  ËûµÄÃæ»ı:"+(PI*this.r*this.r));
+			System.out.println("ä»–çš„åŠå¾„æ˜¯ï¼š"+this.r+"  ä»–çš„é¢ç§¯:"+(PI*this.r*this.r));
 			
 		}
 
 		@Override
 		public void Perimeter() {
 			// TODO Auto-generated method stub
-			System.out.println("ËûµÄ°ë¾¶ÊÇ£º"+this.r+"  ËûµÄÖÜ³¤:"+(2*PI*this.r));
+			System.out.println("ä»–çš„åŠå¾„æ˜¯ï¼š"+this.r+"  ä»–çš„å‘¨é•¿:"+(2*PI*this.r));
 		}
 
 		public double getR() {
