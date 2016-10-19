@@ -1,7 +1,7 @@
-package com.zx.once;
+ï»¿package com.zx.once;
 import java.util.Comparator;
 
-    class StudentComparator implements Comparator<Student>//¶¨ÒåÒ»¸öStudent±È½ÏÆ÷
+    class StudentComparator implements Comparator<Student>//å®šä¹‰ä¸€ä¸ªStudentæ¯”è¾ƒå™¨
     {
 
 		public int compare(Student stu1, Student stu2) {

@@ -1,10 +1,10 @@
-package com.zx.once;
+ï»¿package com.zx.once;
 
 public class Student {
       private int studentID;
       private String name;
       int age;
-     //¹¹Ôìº¯Êı
+     //æ„é€ å‡½æ•°
       public Student(int studentID, String name, int age) {
     	  this.studentID=studentID;
     	  this.name=name;
@@ -12,7 +12,7 @@ public class Student {
 	}
 	
 	 public String toString(){
-		return "¸ù¾İÄêÁäÅÅĞò£º  Ñ§ºÅ£º"+this.studentID+"  ĞÕÃû£º"+this.name+"  ÄêÁä£º"+this.getAge();	 
+		return "æ ¹æ®å¹´é¾„æ’åºï¼š  å­¦å·ï¼š"+this.studentID+"  å§“åï¼š"+this.name+"  å¹´é¾„ï¼š"+this.getAge();	 
 	 }
 	public int getAge() {
 		return age;
